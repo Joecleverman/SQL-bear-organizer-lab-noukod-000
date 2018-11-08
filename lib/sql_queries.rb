@@ -3,7 +3,7 @@ def selects_all_female_bears_return_name_and_age
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
-  "SELECT * FROM bears ORDER BY name ASC;"
+  "SELECT name FROM bears ORDER BY name ASC;"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  "SELECT * FROM bears WHERE name = "null";"
+  "SELECT name FROM bears WHERE name = "null";"
 end
